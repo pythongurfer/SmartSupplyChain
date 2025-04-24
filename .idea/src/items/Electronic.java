@@ -1,14 +1,16 @@
-public  class Electronic extends Product{
-    public Electronic{
-        super(id, name)
+public class Electronic extends Product {
+
+    public Electronic(String id, String name) {
+        super(id, name);
     }
-}   @Override
+
+    @Override
     public String getType() {
         return "Electronic";
     }
 
-    @Overide
+    @Override
     public String toString() {
-        return "Electronic{id='" + getId() + "', name=" + getName() + "'}");
+        return "Electronic{id='" + getId() + "', name='" + getName() + "'}";
     }
 }

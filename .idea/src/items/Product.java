@@ -1,24 +1,24 @@
 public abstract class Product{
-    Private String name;
-    Private String id;
+    private String name;
+    private String id;
 
     public Product(String id, String name){
         this.id = id;
         this.name = name;
     }
     // public getters and setters
-    public static String getId(){
+    public String getId(){
         return id;
     }
-    public static String getName{
+    public String getName(){
         return name;
     }
 
     //setters
-    public static void setId{
+    public void setId(String id){
         this.id=id;
     }
-    public static void getName{
+    public void setName(String name){
         this.name = name;
     }
 
